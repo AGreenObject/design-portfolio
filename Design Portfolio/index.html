@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-            <!--
 
+<!-- 
 
 
 
@@ -44,9 +44,9 @@
 
 
 
+ -->
 
 
--->
     <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async rel=preconnect SameSite=None Secure src="https://www.googletagmanager.com/gtag/js?id=UA-108801094-1"></script>
@@ -83,7 +83,7 @@
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108801094-1"></script>
-        
+
 
 
 
@@ -115,7 +115,7 @@
                 </div>
             </div>
         </nav>
-        
+
         <!-- Masthead-->
         <header class="masthead container-fluid bg-primary text-white text-center background-top" id="about">
                 <!-- Masthead Porfile Image-->
@@ -133,22 +133,22 @@
                         <!-- Icon Divider-->
                         <div class="container col-sm-12 col-md-6 justify-content-center">
                             <p>
-                            I'm a UX/UI designer with experience ranging from websites to digital products. With a handful of front-end development skills, I utilize technical aspects of today’s applications to bolster design.
+                             With a handful of front-end development skills, I utilize technical aspects of today’s applications to bolster design.
                             </p>
                             <p>
-                                Previously as a SaaS Technical Writer, I solved for the pain points of the user--meeting them where they are. My background in both writing and photojournalism means that as a product designer, I’m able to effectively communicate with a wide range of individuals, and particularly enjoy working closely with developers.        
+                                Previously as a SaaS Technical Writer, I solved for the pain points of the user--meeting them where they are. My background means that as a designer, I’m able to effectively communicate with a wide range of individuals, and particularly enjoy working closely with developers.
                             </p>
                         </div>
 
-                        
+
 
 
                         <!-- About Me Modal -->
                         <div class="mx-auto" data-toggle="modal" data-target="#test">
-                           
+
                           <p id="aboutlist" class="font-weight-bold text-uppercase"><i class="far fa-address-card icon"></i>More About Me</p>
                           <i class="fas fa-angle-down"></i>
-                            
+
                         </div>
 
                         <button id="myButton" data-toggle="tooltip" data-placement="bottom" title="Click to copy to Clipboard" class="btnemail" onclick="copyToClipboard()" data-clipboard-text="hello@collinhadley.com">
@@ -164,7 +164,7 @@
                             <a href="https://dribbble.com/acollinhadley" target="_blank"><strong>dribbble</strong> <i class="fab fa-dribbble"></i></a>
                         </button>
 
-                        
+
             </div>
 <!--                     <div class=" container d-flex justify-content-end">
                         <img class="masthead-avatar" src="assets/img/CollinPhoto.png" id="profilepic" alt="It Me">
@@ -177,7 +177,44 @@
                 <!-- Portfolio Section Heading-->
                 <h1 class="topheading text-center text-uppercase  mb-0">Work</h1>
                 <h4 id="subheadingOne" class="text-center  text-secondary mb-5">what I've been up to</h4>
-    
+
+                <style>
+                    .hvr-icon-spin {
+                    display: inline-block;
+                    vertical-align: middle;
+                    -webkit-transform: perspective(1px) translateZ(0);
+                    transform: perspective(1px) translateZ(0);
+                    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+                    }
+                    .hvr-icon-spin .hvr-icon {
+                    -webkit-transition-duration: .5s;
+                    transition-duration: .5s;
+                    -webkit-transition-property: transform;
+                    transition-property: transform;
+                    -webkit-transition-timing-function: ease-in-out;
+                    transition-timing-function: ease-in-out;
+                    }
+                    .hvr-icon-spin:hover .hvr-icon, .hvr-icon-spin:focus .hvr-icon, .hvr-icon-spin:active .hvr-icon {
+                    -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg);
+                    }
+               </style>
+        
+
+                <div class="container d-flex justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-5">
+
+                        <div class="card mx-auto h-100 w-100 portfolio-item" data-toggle="modal" data-target="#process" style="width: 23rem;">
+
+                            <div class="card-body text-center hvr-icon-spin">
+                                <h3 class="mb-0 text-center">My Process  <i class="fas fa-sync-alt hvr-icon  text-center"></i></h3>
+                            </div>
+          
+                        </div>
+                    </div> 
+
+                </div>
+
                 <!-- Icon Divider-->
 
 <!--                 <div class="container col-sm-12 col-md-6 justify-content-center text-center mb-5">
@@ -188,13 +225,13 @@
                     <div class="col-md-6 col-lg-4 mb-5">
 
                         <div class="card mx-auto h-100 w-100 portfolio-item" data-toggle="modal" data-target="#portfolioModal5" style="width: 23rem;">
-                           
+
                             <img src="assets/img/portfolio/ContractPod.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">meeting B2B trends. <br></h5>
 
                             <p class="text-muted pt-4 mb-0"> 1 min read </p>
-                            
+
                              <!--  <p class="card-text">
                                 ContractPodAi, a London-based startup that has developed what it describes as AI-powered contract lifecycle management software. I stepped in to help.
                                 </p> -->
@@ -205,12 +242,12 @@
 <!--                                 <h6 class="mb-0 card-subtitle text-muted">Case Study</h6>
  -->                              </div>
                         </div>
-                    </div> 
+                    </div>
                     <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
 
                         <div class="card mx-auto h-100 w-100 portfolio-item" data-toggle="modal" data-target="#portfolioModal1" style="width: 23rem;">
-                           
+
                             <img src="assets/img/portfolio/helpcenter.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">updating the product
@@ -226,70 +263,100 @@
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+<!--                     <div class="col-md-6 col-lg-4 mb-5">
 
                         <div class="card mx-auto h-100 w-100 portfolio-item" data-toggle="modal" data-target="#portfolioModal2" style="width: 23rem;">
-                           
+
                             <img src="assets/img/portfolio/niwa.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">simplifying in-home hydroponics.</h5>
                                 <p class="text-muted mb-0"> In Progress...</p>
 
-                            
-<!--                               <p class="card-text">A worry-free smart gardening system that doesn’t require any soil and tends to all of your plants' needs automatically. Tell your Niwa app what you want to grow, and your Niwa will load settings to create the right environment for your plants.</p>
- -->                            </div>
+
+                          </div>
                             <div class="d-flex justify-content-between card-footer">
                                 <h6 class="mb-0 cardfooterwhite">design system • business goals • IoT</h6>
                                 <h6 class="mb-0 card-subtitle cardfooterwhite"></h6>
                               </div>
                         </div>
-                    </div>
+                    </div> -->
                      <!-- Portfolio Item 3-->
                      <div class="col-md-6 col-lg-4 mb-5">
 
                         <div class="card mx-auto h-100 w-100 portfolio-item" data-toggle="modal" data-target="#portfolioModal3" style="width: 23rem;">
-                           
+
                             <img src="assets/img/portfolio/TripCrew.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">designing a mobile travel app.</h5>
                                 <p class="text-muted mb-0"> 5 min read </p>
 
-                            
-<!--                               <p class="card-text">Trip crew is an app that provides information and recommendations about where people can go, what to see, and who to do it with in various cities around the world.</p>
- -->                            </div>
+
+                           </div>
                             <div class="d-flex justify-content-between card-footer">
                                 <h6 class="mb-0 cardfooterwhite">concepting • visual • branding</h6>
-<!--                                 <h6 class="mb-0 card-subtitle text-muted">Case Study</h6>
- -->                              </div>
-                        </div>
-                    </div>                   
-
-                    <!-- Portfolio Item 4-->
-<!--                     <div class="col-md-6 col-lg-4 mb-5">
-
-                        <div class="card mx-auto h-100 w-100 portfolio-item" data-toggle="modal" data-target="#portfolioModal4" style="width: 23rem;">
-                           
-                            <img src="assets/img/portfolio/orbitgame.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">creating a mobile game.</h5>
-                            
-                              <p class="card-text">Orbit is a top-down mobile shooter about inter-planetary factions fighting for control of the solar system in an endless battle dictated by the orbital of Mars and Earth. Though not all is as it seems; some faction leaders fight for more than just orbital control.</p>
-                            </div>
-                            <div class="d-flex justify-content-between card-footer">
-                                <h6 class="mb-0"><i class="far fa-clock"></i> 30 sec. read</h6>
-                                <h6 class="mb-0 card-subtitle text-muted">Personal Project</h6>
                               </div>
                         </div>
-                    </div> -->
+                    </div>
 
-                    <!-- Portfolio Item 5-->
-                
-                    <div class="container">    
-                        
-                            <h1 class="topheading text-center text-uppercase  mt-2">Kind <!-- <i class="kindwords far fa-comments"></i> --> Words</h1>
+                    <!-- My Design Process -->
+
+
+
+                <!-- Modal TEST-->
+                <div class="modal fade" id="process" tabindex="-1" role="dialog" aria-labelledby="process" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">My Design Process</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                        </button>
+                        </div>
+                        <div class="modal-body py-1">
+                            <p>
+                                I’m frequently asked to solve problems in areas I’m unfamiliar with.
+                            </p>
+                            <p>
+                                My job has always been to build a bridge between the needs of the stakeholder and the needs of the user. Ideally, but seldom a linear process!
+                            </p>
+                            <H6><i class="fas fa-dice-one"></i> Defining the Problem</H6>
+                            <p>
+                                When starting on a new design project I need to understand what the stakeholder wants to accomplish. We define and agree on the core problem that needs to be solved through a variety of methods.
+                            </p>
+                            <h6><i class="fas fa-dice-two"></i> Understanding the Problem Space</h6>
+                            <p>
+                                I spend time learning the ins-and-outs of the domain that I’m working in. Important when joining a new team or working in an industry that I have no contextual understanding of. 
+                            </p>
+                            <p>
+                                If I have the chance to talk to users, this research helps set my conversations up for success
+                            </p>
+                            <h6><i class="fas fa-dice-three"></i> Gathering User Needs</h6>
+                            <p>
+                                Depending on the scope of the project, I’ll look to interview actual users. I’ll prepare a thoughtful interview to validate the problem and understand how the target user group expects to have their needs met v.s. how the stakeholder intends to.
+                            </p>
+                            <h6><i class="fas fa-dice-four"></i> Prototypes and Concepts</h6>
+                            <p>
+                                Low-risk way to test various hypothetical solutions to the problems that may have been clarified at this point. User and or stakeholder feedback at this stage is valuable for determining my direction from here, whether that means to circle back or to keep moving!
+                            </p>
+
+
+
+                        </div>
+                        <div class="container text-center pb-3">
+                            <button class="btn btn-primary" href="#" data-dismiss="modal">TL;DR</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>                    
+
+                 
+
+                    <div class="container">
+
+                            <h1 class="topheading text-center text-uppercase  mt-2">Kind Words</h1>
                             <h4 id="subheadingTwo" class="text-center text-secondary mb-5">what people say</h4>
-                     
-                            
+
+
                             <div class="row justify-content-center">
 
                                 <div class="col-lg-8">
@@ -299,9 +366,9 @@
                                         </div> -->
                                         <div class="card-body">
                                           <blockquote class="blockquote mb-0">
-                                            <p class=""><i class="fas fa-quote-left mx-1 mb-1"></i>Collin was the ideas guy, always pushing us to stay up to date on trends and practices. 
-                                                It’s thanks only to Collin that our site looks like a modern, software documentation site. 
-                                                Collin's strengths that'll bring value to your organization include his passion for innovation, 
+                                            <p class=""><i class="fas fa-quote-left mx-1 mb-1"></i>Collin was the ideas guy, always pushing us to stay up to date on trends and practices.
+                                                It’s thanks only to Collin that our site looks like a modern, software documentation site.
+                                                Collin's strengths that'll bring value to your organization include his passion for innovation,
                                                 his ability to network with other teams, and his ability to receive feedback professionally.</p>
                                                 <h6 class="font-italic mb-0">Senior Manager, Strata Decision Technology</h6>
                                                 <p class="mb-0 text-muted">—Adam Evans</p>
@@ -336,11 +403,11 @@
                                           </blockquote>
                                         </div>
                                     </div>
-                                  
-                                </div>                                                                
+
+                                </div>
                          </div>
                     </div>
-                      
+
                     <!-- <div class="container col-md-auto col-lg-6">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
@@ -350,15 +417,15 @@
                             </ol>
                             <div class="carousel-inner">
                             <div class="carousel-item active">
-                                
+
                                 <img src="assets/img/kindwords/adam.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                
+
                                 <img src="assets/img/kindwords/nacy.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                
+
                                 <img src="assets/img/kindwords/rene.jpg" class="d-block w-100" alt="...">
                             </div>
                             </div>
@@ -370,10 +437,10 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                             </a>
-                        </div> 
+                        </div>
                     </div> -->
-                    
-                     
+
+
             </div>
         </section>
         <!-- About This Site Section-->
@@ -405,20 +472,20 @@
                         </div>
                     </div>
                 </div>
-                
+
 
             </div>
         </section>
         <!-- Footer-->
-        
+
         <!-- Copyright Section-->
         <section class="copyright round py-4 text-center text-white">
-            <div class="container footer-icons"> 
+            <div class="container footer-icons">
                 <a href="https://angel.co/u/collin-m-hadley" class="px-3"><i class="fab fa-angellist"></i></a>
                 <a href="https://www.instagram.com/acollinhadley/?hl=en" class="px-3"> <i class="fab fa-instagram"></i></a>
                 <a href="https://twitter.com/ACollinHadley" class="px-3"><i class="fab fa-twitter"></i></a>
             </div>
-            
+
         </section>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <!-- <div class="scroll-to-top d-lg-none position-fixed">
@@ -438,17 +505,17 @@
                                     <!-- Portfolio Modal - Title-->
 
                                             <h6 class="mb-4"><i class="far fa-clock"></i> 15 sec. read</h6>
-                                   
+
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-md-10 col-lg-10 px-2">
                                                 <p class="lead mb-5 mt-4">
                                                     Let's back up. <br>
                                                     <br>
-                                                    I’m Collin. I design, code, and make all kinds of things and always have. With my background in photojournalism and writing, I obsess over compositions. And most importantly, the early internet, from which I owe everything I know. 
+                                                    I’m Collin. I design, code, and make all kinds of things and always have. With my background in photojournalism and writing, I obsess over compositions. And most importantly, the early internet, from which I owe everything I know.
                                                 </p>
                                             </div>
-                                            
+
                                                 <div class="col-md-8 col-lg-8 px-2 mt-3 ml-auto">
                                                     <h3 class="casedetails">Working since 1995</h3>
                                                     <p class="mb-5">
@@ -478,13 +545,13 @@
                                     <div class="col-md-10 col-lg-10 px-2 mt-3 mx-auto">
                                         <h3 class="text-left casedetails">New Horizons</h3>
                                         <p class="text-left">
-                                     I grew to realize that even though I valued technical writing and even taught others the value of good writing, I wanted to be a designer.                                          
+                                     I grew to realize that even though I valued technical writing and even taught others the value of good writing, I wanted to be a designer.
                                         </p>
                                         <p>
-                                            I believe technology should serve human ends and I want to use design in its fullest sense to make sure it does.                                          
+                                            I believe technology should serve human ends and I want to use design in its fullest sense to make sure it does.
                                         </p>
                                     </div>
-                                
+
                                 </div>
                                 <!-- Portfolio Modal - Text-->
                                 <div class="container text-center">
@@ -510,10 +577,10 @@
                                 <div class="col-lg-10">
                                     <!-- Portfolio Modal - Title-->
                                     <div class="divider-custom justify-content-start">
-                                        
-                                                                            
+
+
                                     </div>
-                                    
+
                                     <h2 class="portfolio-modal-title mb-5">Updating the product <br>Help Center.</h2>
                                     <div class="container">
                                         <div class="row">
@@ -528,7 +595,7 @@
                                                 <p>
                                                     UX/UI Designer<br>
                                                     Information Architect<br>
-                                                
+
                                                 </p>
                                             </div>
                                             <div class="col-md-12 col-lg-3 px-2">
@@ -537,11 +604,11 @@
                                                     Increased customer usage of Help Center<br>
                                                     Installed analytics into documentation system<br>
                                                 </p>
-                                                
+
                                             </div>
                                         </div>
                                         <div class="row col-md-12 col-lg-12 px-2">
-                                            
+
                                         </div>
                                         <div class="row col-md-12 col-lg-12 px-2">
                                             <h7 class="text-secondary"><i class="far fa-calendar-alt"></i> 1.5 months</h7>
@@ -550,21 +617,21 @@
                                             <h7 class="text-secondary"><i class="fas fa-user-alt"></i></i> 1 person project</h7>
                                         </div>
 
-                                            
+
 
                                     </div>
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded my-3"  src="assets/img/portfolio/helpcenterlg.jpg" alt="" />
-                                   
+
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                     </div>
                                 </div>
                                 <!-- Portfolio Modal - Text-->
-                                <div class="justify-content-center col-lg-6"> 
+                                <div class="justify-content-center col-lg-6">
                                     <img class="float-left mr-1" src="assets/img/dropcap.png" width="70" height="70"alt="">
                                     <p class="mb-4 ml-7">trata creates a SaaS platform that addresses the financial planning, decision support and continuous cost improvement needs of healthcare providers. As a member of the 3 person Technical Communication team at Strata Decision Technology, I took up the initiative to design, develop, and update the information hierarchy of the product Help Center.</p>
-                    
+
                                     <p class="mb-4 font-italic" >Due to NDA, I’m unable to disclose the specific data points and numbers related to the results of my work. As well as the initial version. I'll provide a mock-up representation.</p>
 
                                     <p class="mb4">
@@ -572,11 +639,11 @@
                                     </p>
 
                                     <p class="mb4">
-                                        In addition, the Help Center is accessible from nearly any point within the application via a help center icon. 
+                                        In addition, the Help Center is accessible from nearly any point within the application via a help center icon.
                                     </p>
 
                                     <p class="mb4">
-                                        Because a user landing on the help page could be using any variety of solutions and modules, and the fact that the Help Center is accessible from nearly any context within the application means that the Help Center needs to be designed in a way to help all users, at any time, from any point. 
+                                        Because a user landing on the help page could be using any variety of solutions and modules, and the fact that the Help Center is accessible from nearly any context within the application means that the Help Center needs to be designed in a way to help all users, at any time, from any point.
                                     </p>
 
                                     <p class="font-weight-bold"><i class="fas fa-quote-left mx-1 mb-1"></i>
@@ -590,12 +657,12 @@
                                             </figure>
                                         </div>
 
-                                <div class="justify-content-center col-lg-6"> 
+                                <div class="justify-content-center col-lg-6">
 
                                     <h3 class="casedetails my-5"><i class="fas fa-chart-pie"></i> Data First</h3>
 
                                     <p class="mb4">
-                                        As a member of the documentation team, and also because this was my own internal initiative run by myself, I didn’t have direct access to users to help inform my design decisions for the Help Center. Instead, I relied internally on 
+                                        As a member of the documentation team, and also because this was my own internal initiative run by myself, I didn’t have direct access to users to help inform my design decisions for the Help Center. Instead, I relied internally on
                                         three main sources of information:
                                     </p>
 
@@ -675,17 +742,17 @@
 
                                     <h3 class="casedetails my-5"><i class="fas fa-signature"></i> Closing Thoughts</h3>
                                     <p class="mb-4">
-                                        I learned a lot about keeping design down to realistic constraints during this project. The users were all healthcare workers in hospital or office settings, so the branding needed to fit these users' expectations without getting in their way of using the Help Center. 
+                                        I learned a lot about keeping design down to realistic constraints during this project. The users were all healthcare workers in hospital or office settings, so the branding needed to fit these users' expectations without getting in their way of using the Help Center.
                                         <p>
                                     <p class="mb-4 font-weight-bold">
                                         In many companies, there's a perception that design is all about aesthetics. Aesthetics are important, but there’s also a lot of logic and reasoning that’s behind a lot of design decisions, and you have to be able to justify why you made the design decisions you did.
                                     </p>
-                                        I had no direct access to users for this project, so I needed to rely on getting input primarily from Google Analytics and the various teams I interviewed throughout the company. As a member of the documentation team, and not the design team (at this time) I could have brought more confidence and made a stronger push for interviewing and testing users directly. 
+                                        I had no direct access to users for this project, so I needed to rely on getting input primarily from Google Analytics and the various teams I interviewed throughout the company. As a member of the documentation team, and not the design team (at this time) I could have brought more confidence and made a stronger push for interviewing and testing users directly.
                                         </p>
                                     </p>
                                 </div>
-                                        
-                                
+
+
                                 <div class="container text-center">
                                     <button class="btn btn-primary" href="#" data-dismiss="modal">Back to My Work</button>
                                 </div>
@@ -706,8 +773,8 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10">
-                                    
-                                  
+
+
 
                                     <h2 class="portfolio-modal-title mb-5">Simplifying in-home <br>hydroponics.</h2>
                                     <div class="container">
@@ -730,7 +797,7 @@
                                                 <p>
                                                     On-going...
                                                 </p>
-                                                
+
                                             </div>
                                         </div>
                                         <div class="row col-md-12 col-lg-12 px-2">
@@ -740,37 +807,37 @@
                                             <h7 class="text-secondary"><i class="fas fa-user-alt"></i> <i class="fas fa-user-alt"></i> <i class="fas fa-user-alt"></i> 3 person project</h7>
                                         </div>
                                     </div>
-                                 
+
                                     <img class="img-fluid rounded my-3" src="assets/img/portfolio/niwaDisplay.jpg" alt="">
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                    </div>                         
+                                    </div>
                                 </div>
-                               
-                                <div class="justify-content-center col-lg-6"> 
+
+                                <div class="justify-content-center col-lg-6">
                                     <div class="moreattention mb-5">
                                         <p class=" ">
                                             <strong>This was an entirely remote project.</strong>  I worked among a team of designers across 2 primary stages of this project across several months, primarily within a UX role. Between the two stages, a UI designer stepped in to define the style and establish an Invision Design System that I worked within and maintained for the duration of the project.<br>
                                         </p>
                                         <p>
                                         <strong>My primary contribution was near the end, where I was asked to lead the effort of quantifying and validating the value of a new subscription feature to the app, called The Watchdog.</strong>
-                                        </p>  
+                                        </p>
                                     </div>
                                     <p class="mb-5">
                                         <img class="float-left mr-1" src="assets/img/dropcapniwa.png" width="70" height="70"alt="">
                                         iwa is expanding its product line and adding a new product to the mix: an <strong>IoT connected device called The Niwa Smart Strip. </strong> wi-fi smart strip is to be accompanied by this entirely new mobile app meant to configure, control, and monitor all aspects of the smart strip. Users can plug in their own items like lights, a heater, or water pump into the Niwa Smart Strip to ensure their plant is getting what it needs to grow successfully--<strong>for any plant and on the users own terms. </strong>
                                     </p>
 
-                                    
+
                                     <h3 class="niwadetails my-3 text-center"><i class="fas fa-quote-left mx-1 mb-1"></i> However, the current product limits users to growing specific types of plants within a tank, and following strict grow recipes the Niwa is already programmed for. </h3>
                                     <h3 class="niwadetails text-center">This led Niwa to conceptualize their new product: the Smart Strip and this new app to accompany it.</h3>
-                                    
+
                                 </div>
 
                                     <img class="img-fluid rounded my-3" src="assets/img/portfolio/niwahand.jpg" alt="">
 
 
-                                <div class="justify-content-center col-lg-6"> 
+                                <div class="justify-content-center col-lg-6">
 
                                     <p class="mt-5">
                                         We started out with limited knowledge of the consumer hydroponics product space.
@@ -784,7 +851,7 @@
                                         User Interviews
                                     </h3>
                                     <p class="mb-3">
-                                        While our client had a clear picture of the problem they wanted to solve, our team wanted to have data that validated or disproved that users wanted more control over their grow recipes. We conducted interviews with current Niwa users to uncover what growers needed to set themselves up for success. 
+                                        While our client had a clear picture of the problem they wanted to solve, our team wanted to have data that validated or disproved that users wanted more control over their grow recipes. We conducted interviews with current Niwa users to uncover what growers needed to set themselves up for success.
                                     </p>
                                     <p class="mb-5">
                                         We asked them about their experience with the Niwa app to determine where the app was performing well, and where it faltered. We also spoke to a hydroponics expert and owners of other hydroponics systems to gain an understanding of the field and the trends within it.
@@ -793,10 +860,10 @@
                                         <strong> We picked up three key insights from this:</strong>
                                     </p>
                                 </div>
-                                <div class="col-lg-9"> 
+                                <div class="col-lg-9">
                                     <img class="img-fluid rounded my-3"  src="assets/img/portfolio/niwainsight.png" alt="" />
                                 </div>
-                                <div class="justify-content-center col-lg-6"> 
+                                <div class="justify-content-center col-lg-6">
                                     <h3 class="casedetails mt-3">
                                         Grasping the hardware constraints of the physical product
                                     </h3>
@@ -804,17 +871,17 @@
                                         Because this mobile app is paired with a tangible product, we needed to understand the physical constraints present with the smart strip (power outlet). This helped us realize the growth metrics users would control in the app and in what order. Understanding exactly how the smart strip worked also helped us better understand the intended user of this product, the DIY grower.
                                     </p>
                                 </div>
-                                <div class="col-lg-9"> 
+                                <div class="col-lg-9">
                                     <img class="img-fluid rounded my-3"  src="assets/img/portfolio/niwahardware.png" alt="" />
                                 </div>
-                                <div class="justify-content-center col-lg-6"> 
+                                <div class="justify-content-center col-lg-6">
                                     <h3 class="casedetails mt-3">
                                         Implementing the Design System
-                                    </h3>  
+                                    </h3>
                                     <p class="mb-5">
                                         Halfway through the project and after our primary research, a UI Designer developed and introduced a design system. I then used this for the duration of the project.
                                     </p>
-                                    <div class="col-lg-12"> 
+                                    <div class="col-lg-12">
                                         <figure>
                                             <img class="img-fluid rounded my-3"  src="assets/img/portfolio/niwasystem.png" alt="" />
                                             <figcaption class="figure-caption text-center">The Design System focused on items such as typography and color heirarchies, allowing us to focus on functionality and product goals </figcaption>
@@ -825,30 +892,30 @@
                                     </div>
                                     <h3 class="casedetails mt-5">
                                         The Watchdog
-                                    </h3> 
+                                    </h3>
                                     <p class="mb-5">
                                         I took the Niwa watchdog feature from start to finish. One of the primary stakeholders of Niwa had a monetization feature of the app, called The Watchdog. The Watchdog is a collection of features built into the app and the power strip that automatically protects the crops while providing notifications and alerts to the user. The customer should identify this as he's investing into a "watch dog" constantly watching the crop for him.
                                     </p>
                                     <p class="mb-5">
-                                        Three key questions I needed to answer in a short amount of time and wrapping up the project before the intended launch date:                                    
+                                        Three key questions I needed to answer in a short amount of time and wrapping up the project before the intended launch date:
                                     </p>
                                     <h3 class="niwadetails mt-5 text-center">
                                         <i class="fas fa-quote-left mx-1 mb-1"></i> Do users even want this?
-                                    </h3> 
+                                    </h3>
                                     <h3 class="niwadetails mt-5 text-center">
-                                        <i class="fas fa-quote-left mx-1 mb-1"></i> Can we charge for this, and if so, how much? 
-                                    </h3> 
+                                        <i class="fas fa-quote-left mx-1 mb-1"></i> Can we charge for this, and if so, how much?
+                                    </h3>
                                     <h3 class="niwadetails mt-5 text-center">
                                         <i class="fas fa-quote-left mx-1 mb-1"></i> How does Watchdog fit into the established user flow?
-                                    </h3> 
+                                    </h3>
                                     <h3 class="casedetails mt-5">
                                         Creating the Script
-                                    </h3> 
+                                    </h3>
                                     <p class="mb-5">
-                                        We had a great guideline for developing user research questions, such as in our approach to the initial exploratory interviews. But, for this it was important not let users know what we were thinking of building.                                    
+                                        We had a great guideline for developing user research questions, such as in our approach to the initial exploratory interviews. But, for this it was important not let users know what we were thinking of building.
                                     </p>
                                     <p class="mb-5">
-                                        They’ll tell us what they think we want to hear and it'll invalidate the information. It was important for us to not give them any leading questions or biase. Once they either arrived at the conclusions themselves or brought up the feature, we then felt comfortable asking them more pointed questions.                                    
+                                        They’ll tell us what they think we want to hear and it'll invalidate the information. It was important for us to not give them any leading questions or biase. Once they either arrived at the conclusions themselves or brought up the feature, we then felt comfortable asking them more pointed questions.
                                     </p>
                                     <p class="mb-5">
                                         We created a script that was very conceptual, intentionally just a little vague. This helped keep test users from being biased, and allowed us to “steal” ideas from them. The hydroponics users knew better than us what their needs are, and in the contexts in which they might want to use their new app.                                    </p>
@@ -860,8 +927,8 @@
 
 
 
-                                    
-                                
+
+
                                 <div class="container text-center">
                                     <button class="btn btn-primary" href="#" data-dismiss="modal">Back to My Work</button>
                                 </div>
@@ -883,10 +950,10 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10">
-                                    
+
                                     <div class="divider-custom justify-content-start">
-                                    
-                                        
+
+
                                     </div>
 
                                     <h2 class="portfolio-modal-title mb-5">Designing a mobile <br>Travel App.</h2>
@@ -923,13 +990,13 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                 </div>
-                                
-                                <div class="justify-content-center col-lg-6"> 
+
+                                <div class="justify-content-center col-lg-6">
                                     <img class="float-left mr-1" src="assets/img/dropcaptravel.png" width="70" height="70"alt="">
 
                                     <p class="mb-5">
-                                        ripCrew is a mobile app that provides information and recommendations about where people can go and what to see in different cities around the world. 
-                                        When designing this app, I applied user research to determine what the product should do and how it should do it while practicing user-centered design to create the best experience possible based on user need.                                     
+                                        ripCrew is a mobile app that provides information and recommendations about where people can go and what to see in different cities around the world.
+                                        When designing this app, I applied user research to determine what the product should do and how it should do it while practicing user-centered design to create the best experience possible based on user need.
                                     </p>
                                     <p class="mb-5">
                                         I started this project with a focus on functionality and creating a solution based on user need, then focused heavily on the visual UI and branding component.
@@ -938,13 +1005,13 @@
                                     <p class="mb-5">
                                         I also researched the viability of a mobile-app-only approach as the project brief indicated that this would be the most affordable product to build for the company.  As part of my competitive analysis, I researched 3 primary competitors that specialize in the mobile travel space.
                                     </p>
-                                    
+
                                     <p class="mb-5">
                                         I assessed the <strong> strengths </strong> and <strong>weaknesses</strong> of current and potential competitors to gain a better understanding of the product market, and determine opportunities to differentiate. I also wanted to learn about what is working and isn’t working well within similar products.
                                     </p>
                                 </div>
-                                
-                                <div class="col-lg-12"> 
+
+                                <div class="col-lg-12">
                                     <img class="img-fluid rounded my-3"  src="assets/img/portfolio/companalysis.jpg" alt="" />
                                 </div>
 
@@ -962,14 +1029,14 @@
                                     </div>
                                 </div>
 
-                                <div class="justify-content-center col-lg-6 mt-4"> 
+                                <div class="justify-content-center col-lg-6 mt-4">
                                     <h3 class="casedetails my-5">Visual Competitive Analysis</h3>
                                     <p class="mb-5">
                                         After identifying the primary competitors and their target audiences, I needed to document the look and feel of each primary competitor to get an understanding of how both colors, typography, and information architecture appeals to their users in the travel space.
-                                    </p> 
+                                    </p>
                                     <p class="mb-3">
                                         Some of the questions I asked myself:
-                                    </p> 
+                                    </p>
                                     <ul class="font-weight-bold">
                                         <li class="mb-3">Find out how a competitor’s onboarding is structured visually and how they persuade users to sign up and make use of their offerings.</li>
                                         <li class="mb-3">What color scheme are they using? What could be the reasons behind their color decisions?</li>
@@ -977,34 +1044,34 @@
                                         <li class="mb-3">What is the look and feel? Modern? High end? Why or why not?</li>
                                     </ul>
                                 </div>
-                                <div class="col-lg-12"> 
+                                <div class="col-lg-12">
                                     <img class="img-fluid rounded my-3"  src="assets/img/portfolio/visualanalysis.jpg" alt="" />
                                 </div>
-                                    <div class="justify-content-center col-lg-6 mt-4"> 
+                                    <div class="justify-content-center col-lg-6 mt-4">
                                         <h3 class="casedetails my-5">Sitemapping</h3>
                                         <p class="mb-5">
                                             After comparing the sitemaps of the primary competitors, I had a better idea of how various IA patterns work across both mobile devices and in the mobile travel space.
-                                        </p> 
+                                        </p>
                                     </div>
 
                                         <img class="img-fluid rounded my-3"  src="assets/img/portfolio/Sitemap.jpg" alt="" />
-                                        
-                                    <div class="justify-content-center col-lg-6 mt-4"> 
+
+                                    <div class="justify-content-center col-lg-6 mt-4">
                                         <p class="mb-5">
                                             I created this basic sitemap to help set and guide the fundamental IA and basic user-flow of what the TripCrew mobile application may be. This document continued to serve as a moving target throughout the entire design process as I received input from both users and stakeholders throughout the process.
-                                        </p> 
+                                        </p>
                                         <h3 class="casedetails my-5">Moodboarding</h3>
                                         <p class="mb-5">
-                                            Using the visual competitive analysis as a starting point to inform myself of what colors (and even shapes) are used within the mobile-travel space, I created and tested two intentionally divergent moodboards--an arrangement of images, colors, etc. intended to evoke or project a particular style or concept.</p> 
+                                            Using the visual competitive analysis as a starting point to inform myself of what colors (and even shapes) are used within the mobile-travel space, I created and tested two intentionally divergent moodboards--an arrangement of images, colors, etc. intended to evoke or project a particular style or concept.</p>
                                     </div>
                                     <div class="row">
-                                        <div class="justify-content-center col-lg-6 mt-4"> 
+                                        <div class="justify-content-center col-lg-6 mt-4">
                                             <figure class="figure">
                                                 <img class="img-fluid rounded my-3"  src="assets/img/portfolio/roundmood.png" alt="" />
                                                 <figcaption class="figure-caption text-center">Rounded and friendly moodboard concept.</figcaption>
                                             </figure>
                                         </div>
-                                        <div class="justify-content-center col-lg-6 mt-4"> 
+                                        <div class="justify-content-center col-lg-6 mt-4">
                                             <figure class="figure">
                                                 <img class="img-fluid rounded my-3"  src="assets/img/portfolio/squareMood.png" alt="" />
                                                 <figcaption class="figure-caption text-center">Acute geometry and strong, bold hues.</figcaption>
@@ -1026,7 +1093,7 @@
                                         </figure>
                                         <h3 class="casedetails my-5"><i class="fas fa-signature"></i> Closing Thoughts</h3>
                                         <p class="mb-5">
-                                            I grew immensely as a designer during this project--this was the first mobile application that I ever worked on as a designer. An added challenge was the fact that I needed to draft and create the entire experience from the ground up, with nothing but a project brief to start from and the help of a mentor. 
+                                            I grew immensely as a designer during this project--this was the first mobile application that I ever worked on as a designer. An added challenge was the fact that I needed to draft and create the entire experience from the ground up, with nothing but a project brief to start from and the help of a mentor.
                                         </p>
                                         <p class="mb-5">
                                             Branding, moodboarding, creating and testing user flows, “identifying the problem space” were all concepts I was familiar with going into this project. The “UX process” and associated buzzwords was something that had been drilled into my head so much, that I was convinced that for this project it would maybe be largely superfluous if I just “did whatever needed to be done”. But on more than one occasion, I found myself needing to backtrack and review why I made certain decisions when questioned. Without having documented my moves and conclusions, or even moving too quickly through certain steps (defining clearly the problem(s) that needed to be solved), I often needed to backtrack and re-do certain parts of the process, adding hours to my time.
@@ -1044,7 +1111,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
         <!-- Portfolio Modal 4-->
         <!-- <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
@@ -1082,7 +1149,7 @@
                                                 <p>
                                                     In Progress..<br>
                                                 </p>
-                                                
+
                                             </div>
                                         </div>
                                     </div>
@@ -1094,14 +1161,14 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                 </div>
-                                
-                                <div class="justify-content-center col-lg-6"> 
+
+                                <div class="justify-content-center col-lg-6">
                                     <img class="float-left mr-1" src="assets/img/dropcaporbit.png" width="70" height="70"alt="">
                                     <p class="mb-4 ml-7">
                                         rbit is a top-down mobile shooter about inter-planetary factions fighting for control of the solar system in an endless battle dictated by the 2-year orbital of Mars and Earth. Though not all is as it seems; some faction leaders fight for more than just orbital dominance.
                                     </p>
                                     <p class="mb-5">
-                                        Working as a part of a small 4 person team, this is the first game we've ever made. 
+                                        Working as a part of a small 4 person team, this is the first game we've ever made.
                                     </p>
                                     <p class="mb-5">
                                         My role as a the UI designer is (and budding game designer) is to help create the UI assets and menus of the game. I also help with setting and defining the overall art direction.
@@ -1140,7 +1207,7 @@
                                     <!-- Portfolio Modal - Title-->
                                     <div class="divider-custom justify-content-start">
                                     </div>
-                                    
+
                                     <h2 class="portfolio-modal-title mb-5">Meeting  <br>B2B trends.</h2>
                                     <div class="container">
                                         <div class="row">
@@ -1161,25 +1228,25 @@
                                                 <p>
                                                     Won the RFP for my client<br>
                                                 </p>
-                                                
+
                                             </div>
                                         </div>
                                         <div class="row col-md-12 col-lg-12 px-2">
-                                            
+
                                         </div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded my-3"  src="assets/img/portfolio/contractpodlayout.jpg" alt="" />
-                                   
+
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                     </div>
                                 </div>
                                 <!-- Portfolio Modal - Text-->
-                                <div class="justify-content-center col-lg-6"> 
+                                <div class="justify-content-center col-lg-6">
                                     <img class="float-left mr-1" src="assets/img/dropcappod.png" width="70" height="70"alt="">
                                     <p class="mb-4 ml-7">
-                                        ontractPodAi, a London-based startup developed what is describes as an AI-powered contract lifecycle management software. Founded in 2012, ContractPodAi offers an “end-to-end” solution spanning three main aspects of contract management: contract generation, repository, and third-party review.                     
+                                        ontractPodAi, a London-based startup developed what is describes as an AI-powered contract lifecycle management software. Founded in 2012, ContractPodAi offers an “end-to-end” solution spanning three main aspects of contract management: contract generation, repository, and third-party review.
                                     </p>
                                     <p>
                                         Its AI offering, which uses IBM’s Watson, is meant to streamline the contract management process and reduce the burden on corporate in-house legal teams.
@@ -1189,17 +1256,17 @@
                                          B2B -- large firms that use contracts on a regular basis.
                                     </p>
                                     <h3 class="casedetails">Purpose:</h3>
-                                 
+
                                     <p class="mb-5">
                                          Generate initial interest, establish confidence in the brand and guide the potential customer to eventually convert as a contact or sale. The two primary user goals are: downloading brochure + booking demos.
                                     </p>
                                 </div>
 
-                                <div class="justify-content-center col-lg-10"> 
+                                <div class="justify-content-center col-lg-10">
                                     <img class="img-fluid rounded my-3"  src="assets/img/portfolio/sitetypes.png" alt="" />
                                 </div>
 
-                                <div class="col-lg-12"> 
+                                <div class="col-lg-12">
 
                                     <div class="my-5 d-flex justify-content-center">
                                         <h3 class="casedetails text-center width">I researched common web information structures to determine which best meets the goal of the client: Guide a business user to eventually convert as a contact or sale
@@ -1237,9 +1304,9 @@
                                         </p>
                                     </div>
 
-                                   
 
-                                
+
+
                                 </div>
 
 
@@ -1250,13 +1317,13 @@
                                 </div>
 
                                 <a href="https://www.figma.com/proto/dagjxDhMgbXSJ1z075NzRG/ContractPod?node-id=48%3A552&viewport=-42%2C288%2C0.12397491186857224&scaling=min-zoom" target="_blank"><h3 class="mt-5">View Figma Prototype <i class="fas fa-external-link-alt"></i></h3></a>
-                                
+
 
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                
-                               
+
+
 
                                 <div class="justify-content-center col-lg-6 mt-4">
                                     <h3 class="casedetails my-5 text-center">First attempt and final attempt</h3>
@@ -1265,15 +1332,15 @@
                                         The first draft I submitted to the client was intentionally bare and conservative. I believe sharing rough drafts early and often makes for a smoother process. I knew that the client had domain knowledge that I didn't and would be better positioned to give feedback on the design.
                                         I also didn't want to spend too much of my time chasing a design direction that ultimately would need to be un-done or re-designed. This approach saved both my time and the client time.
                                     </p>
-                                    
+
                                     <figure class="figure">
                                         <img class="img-fluid rounded my-3"  src="assets/img/portfolio/beforeandafter.jpg" alt="" />
                                         <figcaption class="figure-caption text-center">First attempt on the left both lacked a strong presence and offered less opportunity to engage in content</figcaption>
                                     </figure>
-                                    
+
                                 </div>
 
-                                    
+
                                 <div class="container text-center">
                                     <button class="btn btn-primary" href="#" data-dismiss="modal">Back to My Work</button>
                                 </div>
@@ -1281,7 +1348,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
 
         </div>
