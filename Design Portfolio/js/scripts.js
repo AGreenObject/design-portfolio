@@ -6,7 +6,7 @@
 
    
     tippy('#myButton', {
-      content: "Copied to clipboard",
+      content: "Email copied to clipboard",
       trigger: 'click',
     });
   
