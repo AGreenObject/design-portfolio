@@ -10300,11 +10300,11 @@ h3 {
 }
 .masthead {
   padding-top: calc(10rem + 74px);
-  padding-bottom: 18rem;
+  padding-bottom: 11rem;
 }
 .masthead .masthead-heading {
-  font-size: 2.75rem;
-  line-height: 2.75rem;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 .masthead .masthead-subheading {
   font-size: .75rem;
@@ -10316,8 +10316,8 @@ h3 {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(15rem + 104px);
-    padding-bottom: 18rem;
+    padding-top: calc(11rem + 104px);
+    padding-bottom: 11rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
@@ -10425,19 +10425,14 @@ h3 {
 
 
 #casestudies {
-  /* background-image: url(dot-grid.png); */
-  /* background:  grey url(test.png) top repeat-x; */
-
-  background: rgb(28,15,37);
-
+  background: grey url(test.png) top repeat-x;
     background-position-x: center;
     background-position-y: top;
     background-size: initial;
-    
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    
+    background-color: #EEEEEE;
 }
 
 .niwadetails {
