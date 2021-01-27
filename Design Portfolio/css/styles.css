@@ -6236,12 +6236,14 @@ p.font-italic:hover {
 
 
 .bg-primary {
-  background: rgb(28,15,37);
-  /* background: linear-gradient(41deg, rgba(255,169,169,1) 0%, rgba(85,107,189,1) 50%, rgba(67,154,213,1) 100%); */
-  background: rgb(79,34,121);
-  background: rgb(48,28,62);
-  background: radial-gradient(circle, rgba(48,28,62,1) 0%, rgba(25,14,33,1) 23%);
+  background: linear-gradient(
+    41deg
+    , rgba(255,169,169,1) 0%, rgba(85,107,189,1) 50%, rgba(67,154,213,1) 100%);
 }
+
+
+
+
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
