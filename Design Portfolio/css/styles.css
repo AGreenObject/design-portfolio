@@ -6260,7 +6260,7 @@ button.bg-primary:focus {
   background: rgba(88, 88, 88, 0.295);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
-  border: .5px solid #524558;
+  /* border: .5px solid #524558; */
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
