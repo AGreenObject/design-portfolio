@@ -10151,7 +10151,9 @@ h3 {
 
 #aboutportfolio {
   padding-bottom: 0px;
-  padding-top: 7rem;
+  padding-top: 10rem;
+  
+
 }
 
 .round{
@@ -10528,4 +10530,17 @@ form .row:first-child .floating-label-form-group {
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
   border: .5px solid #524558;
+  margin-top: 120px !important; 
+}
+
+#figma {
+  color: #50E5AC;
+}
+
+#framer {
+  color: #50ADEB;
+}
+
+#sketch {
+  color: #E88C3E;
 }
